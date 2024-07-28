@@ -1,0 +1,245 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    /*background-color: red;*/
+}
+
+#page1>video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+}
+#page1>nav>img{
+    height: 100px;
+    width: 100px;
+    padding-right: 0%;
+    margin: 0%;
+}
+#page1>nav>p{
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: a;
+    color: #fff;
+    display: flex;
+    align-items:start;
+    padding-right: 70%;
+}
+
+#right-nav>button{
+    padding: 10px 20px;  
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: a;
+    border: 1px solid white;
+}
+#right-nav>button:hover{
+    border:none;
+    background: black;
+    color: #fff;
+    transition: all ease-in 0.3s;
+    }
+
+.bottom-page1{
+    position: absolute;
+    bottom: 5%;
+    height: 35vh;
+    width: 50vw;
+    left: 10%;
+}
+.bottom-page1>h1{
+font-family: a;
+font-size: 5vw;
+font-weight: 100;
+line-height: 1;
+color: #fff;
+
+}
+
+.bottom-page1-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 30%;
+    width: 100%;
+}
+
+.bottom-page1-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: a;
+}
+
+.bottom-page1-inner>button{
+    padding: 10px 20px;  
+    border: none;
+    border-radius: 50px;
+    background: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.bottom-page1-inner>button:hover{
+background: black;
+color: #fff;
+transition: all ease-in 0.3s;
+}
+
+.bottom-page1-inner>h4{
+    font-family: a;
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: #fff;
+
+}
+
+#page2{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content:center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2b2b2b;
+    position: relative;
+    padding:0vw 8vw;
+    color: #fff;
+    
+}
+#page2>h3{
+    font-weight: 100;
+    line-height: 40px;
+    text-transform: uppercase ;
+    margin-bottom: 3vw;
+}
+
+#page2>h2{
+    width: 90%;
+    line-height: 1.3;
+    font-weight: 100;
+    font-size: 3.5vw;
+    color: #dadada69;
+    
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color:#c4c4c4;
+    position: relative;
+}
+
+#page4{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content:center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2b2b2b;
+    position: relative;
+    padding:0vw 8vw;
+    color: #2b2b2b;
+    
+}
+#page4>h3{
+    font-weight: 100;
+    line-height: 40px;
+    text-transform: uppercase ;
+    margin-bottom: 3vw;
+
+}
+
+#page4>h2{
+    width: 90%;
+    line-height: 1.3;
+    font-weight: 100;
+    font-size: 3.5vw;
+    color: #fff;
+   
+    
+}
+
+footer {
+    background-color: #b3b3b3;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials li a img {
+    width: 24px;
+    height: 24px;
+}
